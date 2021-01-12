@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title> Photo Gallery </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container"></div>
+    <section id="Grid">
+        <hr>
+        <h1> Photo Gallery </h1>
+        <hr>
+        <br>
+        <img src="Untitled.png">
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h1> Grid Gallery </h1>
+        <img class="land" src="Landscape.jpg">
+        <img class="land" src="Landscape1.jpg">
+        <img class="land" src="Landscape2.jpg">
+        <img class="land" src="Landscape3.jpg">
+        <br>
+        <img class="land" src="Landscape4.jpg">
+        <img class="land" src="Landscape5.jpg">
+        <img class="land" src="IMG_20200709_152635.jpg">
+        <img class="land" src="Landscape7.jpg">
+        <br>
+        <hr>
+        <br>
+        <h1> Slide Gallery </h1>
+
+    </section>
+
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+
+        <div class="carousal-inner">
+            <div class="item active">
+                <center>
+                    <a href="Landscape1.jpg" target="_blank">
+                        <img src="Landscape1.jpg" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p> Landscape No.1 </p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="item">
+                <center>
+                    <a href="Landscape.jpg" target="_blank">
+                        <img src="Landscape.jpg" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p> Landscape No.2 </p>
+                    </div>
+                </center>
+
+            </div>
+
+            <div class="item">
+                <center>
+                    <a href="IMG_20200709_152635.jpg" target="_blank">
+                        <img src="IMG_20200709_152635.jpg" class="img-responsive">
+                    </a>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="Landscape2.jpg" target="_blank">
+                        <img src="Landscape2.jpg" class="img-responsive">
+                    </a>
+                </center>
+
+            </div>
+
+            <a class="left-carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+
+            <a class="right-carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="0"></li>
+            </ol>
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+            </ol>
+
+        </div>
+
+
+</body>
+
+</html>
